@@ -564,7 +564,8 @@ p {
   flex-basis: 20%;
 }
 
-.footer__logo img {
+.footer__logo {
+  display: inline-block;
   margin-bottom: 15px;
 }
 
