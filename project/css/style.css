@@ -186,9 +186,11 @@ body {
   z-index: -1;
 }
 
-/* .nav__link:hover {
-  color: var(--color-primary);
-} */
+@media (any-hover: hover) {
+  .nav__link:hover {
+    color: var(--color-primary);
+  }
+}
 
 .nav__link:active {
   color: var(--color-primary-shade);

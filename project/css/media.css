@@ -804,9 +804,13 @@
   }
 }
 
-@media (any-hover: hover) {
+/* @media screen and (any-hover: hover) {
   .nav__link:hover {
     color: var(--color-primary);
+  }
+
+  .nav__link:active {
+    color: var(--color-primary-shade);
   }
 
   .header__btn:hover svg {
@@ -865,4 +869,4 @@
   .footer-list__link:hover {
     color: var(--color-primary);
   }
-}
+} */
