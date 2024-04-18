@@ -316,10 +316,6 @@ body {
   background-color: var(--color-white);
 }
 
-.podcast-card__pic {
-  width: 100%;
-}
-
 .podcast-card__date {
   position: absolute;
   left: -1px;
@@ -364,10 +360,6 @@ body {
 
 .broadcast__title {
   margin-bottom: auto;
-}
-
-.broadcast__archive-two {
-  display: none;
 }
 
 .archive {
